@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  font-family: 'Open Sans', serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 49px;
+  color: #272727; }
+  .header__text {
+    display: none; }
+    @media screen and (min-width: 360px) {
+      .header__text {
+        display: flex; } }
+
+/*# sourceMappingURL=header.css.map */

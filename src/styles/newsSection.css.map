@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAEA,aAAc;EACZ,OAAO,EAAE,IAAI;EACb,cAAc,EAAE,GAAG;EACnB,SAAS,EAAE,IAAI;;AAMjB,UAAW;EACT,KAAK,EAAE,IAAI;ECJT,yBAA0B;IDG9B,UAAW;MAGP,KAAK,EAAE,GAAG",
+"sources": ["newsSection.scss","breakpoints.scss"],
+"names": [],
+"file": "newsSection.css"
+}

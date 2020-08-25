@@ -1,0 +1,12 @@
+.news-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.news-item {
+  width: 100%; }
+  @media (min-width: 360px) {
+    .news-item {
+      width: 50%; } }
+
+/*# sourceMappingURL=newsSection.css.map */

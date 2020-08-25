@@ -1,0 +1,84 @@
+@import '../../node_modules/pretty-checkbox/src/pretty-checkbox';
+
+@import "header";
+@import "heroSection";
+@import "newsSection";
+
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.button-primary,
+.button-secondary,
+.button-text{
+  margin: 1rem;
+  width: 230px;
+  height: 40px;
+  border-radius: 20px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  &:hover {
+    cursor: pointer;
+  }
+}
+.button-primary {
+  background: #F49E4C;
+  color: #FFFFFF;
+  border: 2px solid #F49E4C;
+}
+
+.button-secondary {
+  background: #FFFFFF;
+  color: #F49E4C;
+  border: 2px solid #F49E4C;
+}
+.button-text {
+  background: #FFFFFF;
+  color: #F49E4C;
+  border: none;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 0.75rem;
+  margin: 0;
+}
+.text-heading {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+}
+.text-divider {
+  font-family: "Khula", sans-serif;
+  font-size: 1rem;
+  color: #7D7C83;
+  &__line {
+    border: 2px solid #F49E4C;
+    width: 73px;
+  }
+}
+input[type=text],
+input[type=email],
+input[type=password]{
+  padding: 1rem;
+  margin: 0.75rem 0;
+  width: 300px;
+  height: 2rem;
+  border: 1px solid #7D7C83;
+  box-sizing: border-box;
+  border-radius: 5px;
+}
+.pretty {
+  margin-right: auto;
+  label {
+    word-wrap: break-word;
+  }
+}

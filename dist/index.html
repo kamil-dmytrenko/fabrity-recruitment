@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Title</title>
+</head>
+<body>
+    <div class="header">
+        <div class="header-logo">
+        </div>
+
+        <div class="header-text">
+            Front-End
+        </div>
+        <nav class="header-navigation">
+            <ul class="header-navigation__list">
+                <li class="header-navigation__list-item news-item active"><a href="#news">Wiadomości</a></li>
+                <li class="header-navigation__list-item technologies-item"><a href="#technologies">Technologie</a></li>
+            </ul>
+        </nav>
+    </div>
+    <section class="hero-section">
+        <div class="hero-section__carousel">
+            <div class="carousel-indicators"></div>
+        </div>
+        <div class="hero-section__form">
+            <div class="hero-section__form-choose">
+                <p class="text-heading">Dzień dobry</p>
+                <button class="hero-button__show-login button-primary">Zaloguj się</button>
+                <p class="text-divider">lub</p>
+                <button class="hero-button__show-register button-secondary">Zarejestruj</button>
+            </div>
+            <div class="hero-section__form-login">
+                <p class="text-heading">Zaloguj się</p>
+                <form class="hero-form" action="#">
+                    <label class="hero-form__input">
+                        <input type="text" placeholder="Login">
+                    </label>
+
+                    <label class="hero-form__input">
+                        <input type="password" placeholder="Hasło">
+                    </label>
+
+                    <div class="pretty p-switch p-fill">
+                        <input type="checkbox" />
+                        <div class="state p-warning">
+                            <label>Zapamiętaj moją sesję</label>
+                        </div>
+                    </div>
+                    <button class="hero-button__show-choose button-primary">Dalej</button>
+                </form>
+                <button class="hero-button__show-register button-text">Nie mam konta</button>
+            </div>
+            <div class="hero-section__form-register">
+                <p class="text-heading">Zarejestruj się</p>
+                <form class="hero-form" action="#">
+                    <label class="hero-form__input">
+                        <input type="text" placeholder="Login">
+                    </label>
+                    <label class="hero-form__input">
+                        <input type="password" placeholder="Hasło">
+                    </label>
+                    <p class="text-divider__line"></p>
+                    <label class="hero-form__input">
+                        <input type="text" placeholder="Imię i nazwisko">
+                    </label>
+                    <label class="hero-form__input">
+                        <input type="email" placeholder="Adres e-mail">
+                    </label>
+
+                    <div class="pretty p-default">
+                        <input type="checkbox" />
+                        <div class="state p-warning">
+                            <label>Wyrażam zgodę na lorem ipsum lorem ipsum</label>
+                        </div>
+                    </div>
+                    <button class="hero-button__show-choose button-primary">Załóż konto</button>
+                </form>
+                <button class="hero-button__show-login button-text">Chcę się zalogować</button>
+            </div>
+        </div>
+    </section>
+    <section id="news" class="news-section">
+        <p class="text-heading">Wiadomości</p>
+        <div class="news-section__news">
+
+        </div>
+        <div class="load-news">Załaduj więcej</div>
+    </section>
+<script src="bundle.js"></script>
+</body>
+</html>
